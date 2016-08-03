@@ -1,0 +1,14 @@
+%icon {
+  @extend .#{$fa-css-prefix};
+  color: $color-secondary-2-1;
+}
+
+.icon-left {
+  @extend %icon;
+  margin-right: 4px;
+}
+
+.icon-right {
+  @extend %icon;
+  margin-left: 4px;
+}
